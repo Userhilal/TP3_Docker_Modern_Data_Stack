@@ -1,0 +1,31 @@
+# Python
+venv_tp3/
+__pycache__/
+*.pyc
+
+# Generated data
+minio-data/
+postgres-data/
+airflow_db_data/
+*.log
+
+# Reports / screenshots / zip
+report/
+screenshots/
+*.docx
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.zip
+
+# Also ignore generated files inside nested project folder
+TP3_Docker_Modern_Data_Stack/report/
+TP3_Docker_Modern_Data_Stack/screenshots/
+TP3_Docker_Modern_Data_Stack/venv_tp3/
+TP3_Docker_Modern_Data_Stack/minio-data/
+TP3_Docker_Modern_Data_Stack/*.zip
+
+# IDE
+.vscode/
+.DS_Store

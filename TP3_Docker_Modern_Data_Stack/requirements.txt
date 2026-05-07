@@ -1,0 +1,4 @@
+minio==7.2.7
+psycopg2-binary==2.9.9
+kafka-python-ng==2.2.3
+pandas==2.2.2

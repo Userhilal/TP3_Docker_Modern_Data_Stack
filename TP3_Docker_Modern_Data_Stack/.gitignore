@@ -1,0 +1,36 @@
+venv_tp3/
+__pycache__/
+*.pyc
+*.zip
+.DS_Store
+.env
+screenshots/*.png
+
+# Python
+venv_tp3/
+__pycache__/
+*.pyc
+
+# Docker / data generated
+minio-data/
+postgres-data/
+airflow_db_data/
+*.log
+
+# Generated reports
+report/
+*.docx
+*.pdf
+
+# Screenshots
+screenshots/
+*.png
+*.jpg
+*.jpeg
+
+# Zip files
+*.zip
+
+# OS / IDE
+.DS_Store
+.vscode/
